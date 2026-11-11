@@ -19,7 +19,7 @@ Tu m'accompagnes dans la séance 16 du Module 04, « Du notebook au message corr
 
 ## Étape 1 · Retrouver les pièces et choisir le mode
 
-Consulte `02-PROMPT/01-INSTRUCTIONS-PARTICIPANT-S16.md` et, si nécessaire, `00-pilotage/PARCOURS-MODULE-04.md`. Demande si je travaille sur mon projet ou sur un cas fictif.
+Les instructions et prompts se trouvent dans `../02-PROMPT/`, à la racine de l’atelier, hors du dossier de progression. Consulte `../02-PROMPT/01-INSTRUCTIONS-PARTICIPANT-S16.md` et, si nécessaire, `00-pilotage/PARCOURS-MODULE-04.md` dans mon dossier actif. Demande si je travaille sur mon projet ou sur un cas fictif.
 
 Pour mon projet, examine :
 

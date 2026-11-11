@@ -44,4 +44,4 @@ Voir [provenance et contrôles](00-pilotage/PROVENANCE-S15.md).
 
 ## Instructions et prompts S15
 
-Ouvrir `02-PROMPT/01-INSTRUCTIONS-PARTICIPANT-S15.md`, puis `02-PROMPT/02-PROMPT-MAITRE-S15.md`. Les quatre fichiers de référence S13/S14 sont conservés dans ce même dossier. L’atelier autonome inclut 12 flashcards et 8 questions de quiz.
+Les instructions et prompts S13 à S16 sont désormais dans `../02-PROMPT/`, à la racine de l’atelier. Pour S16, ouvrir `../02-PROMPT/01-INSTRUCTIONS-PARTICIPANT-S16.md`, puis `../02-PROMPT/02-PROMPT-MAÎTRE-S16.md`, ou utiliser la rubrique Prompts du mini-site S16. L’atelier S16 inclut 8 flashcards et 6 questions de quiz.

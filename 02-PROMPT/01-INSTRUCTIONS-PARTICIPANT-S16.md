@@ -10,9 +10,9 @@ Reprendre mes données S15 et ma rédaction S14, produire trois brouillons avec 
 
 ## 1. Préparer mon dossier · 0–10 minutes
 
-Le dossier actif est `atelier-seance-16-ln-ia/mon-dossier-challenge-MODULE-04/`. Tous les chemins ci-dessous partent de cette racine.
+Le dossier actif est `atelier-seance-16-ln-ia/mon-dossier-challenge-MODULE-04/`. Les chemins de travail ci-dessous partent de cette racine. Les consignes et prompts sont classés à part dans `../02-PROMPT/`, à la racine de l’atelier ; le pilotage reste dans `00-pilotage/`.
 
-1. Ouvrir [l'accueil du Module 04](../ACCUEIL-MODULE-04.html), puis [l'atelier S16](../OUVRIR-SEANCE-16.html).
+1. Ouvrir [l'accueil du Module 04](../mon-dossier-challenge-MODULE-04/ACCUEIL-MODULE-04.html), puis [l'atelier S16](../OUVRIR-SEANCE-16.html).
 2. Retrouver mes sources, leur version et leur statut, ma trace S13 et ma rédaction `04-communication/message-court-projet.md`.
 3. Retrouver mon véritable export S15 : `04-communication/donnees-pour-s16.json`. Vérifier les six champs **projet, public, besoin, proposition, action, format**, chacun avec sa source ou sa justification.
 4. Conserver les productions antérieures. Si une pièce manque, reprendre S14/S15 ou choisir explicitement un cas fictif pour s'exercer. Ne pas présenter ce cas comme mon projet personnel.
@@ -21,7 +21,7 @@ Le Markdown final `04-communication/variantes-communication-projet.md` sera prod
 
 ## 2. Observer la démonstration · 10–25 minutes
 
-Suivre la rubrique Démonstration de l'atelier ou [le guide de démonstration](../08-demonstration/LIRE-MOI-DEMONSTRATION.md).
+Suivre la rubrique Démonstration de l'atelier ou [le guide de démonstration](../mon-dossier-challenge-MODULE-04/08-demonstration/LIRE-MOI-DEMONSTRATION.md).
 
 - Annoncer quel format devrait changer avant de lire le résultat.
 - Distinguer l'affichage d'un brouillon, l'enregistrement sur disque et la réouverture du fichier.
@@ -31,7 +31,7 @@ Le script de démonstration et son notebook avec sorties sont des exemples du fo
 
 ## 3. Exécuter les cellules 1 à 3 · 25–55 minutes
 
-Ouvrir [le notebook candidat](../05-automatisation/communication-assistee.ipynb) dans Jupyter ou VS Code avec un noyau Python 3. Redémarrer le noyau avant une reprise complète, puis exécuter les cellules dans l'ordre. Le notebook utilise la bibliothèque standard Python.
+Ouvrir [le notebook candidat](../mon-dossier-challenge-MODULE-04/05-automatisation/communication-assistee.ipynb) dans Jupyter ou VS Code avec un noyau Python 3. Redémarrer le noyau avant une reprise complète, puis exécuter les cellules dans l'ordre. Le notebook utilise la bibliothèque standard Python.
 
 Dans la cellule 1 :
 
@@ -85,11 +85,11 @@ Présenter les deux fichiers :
 - `05-automatisation/communication-assistee.ipynb`, avec les sorties de mon exécution.
 - `04-communication/variantes-communication-projet.md`, rouvert avec ma correction.
 
-Renseigner [l'entrée S16](../07-portfolio/entree-preuve-16.md), puis ajouter cette contribution à `07-portfolio/preuves-module-04.md` sans remplacer S13/S14/S15.
+Renseigner [l'entrée S16](../mon-dossier-challenge-MODULE-04/07-portfolio/entree-preuve-16.md), puis ajouter cette contribution à `07-portfolio/preuves-module-04.md` sans remplacer S13/S14/S15.
 
 Identifiant : **`preuve-16-notebook-communication-assistee`**. Inscrire la date réelle, l'origine des données, le champ changé, la prédiction, les résultats, la correction, les chemins et le constat effectivement observé. Une observation manquante reste « À COMPLÉTER ». La décision du pilote reste en attente jusqu'à sa décision explicite, datée et délimitée.
 
-Préparer [le relais M05](../07-portfolio/relais-module-05.md) : titre, court paragraphe relu, action unique, chemin et rubrique source, version ou empreinte disponible, statut. La validation d'une preuve ne vaut pas autorisation de diffusion.
+Préparer [le relais M05](../mon-dossier-challenge-MODULE-04/07-portfolio/relais-module-05.md) : titre, court paragraphe relu, action unique, chemin et rubrique source, version ou empreinte disponible, statut. La validation d'une preuve ne vaut pas autorisation de diffusion.
 
 ## Réviser ou prolonger
 

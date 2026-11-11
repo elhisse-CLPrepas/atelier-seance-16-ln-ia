@@ -5,7 +5,7 @@ $destination = Join-Path $atelier 'mon-dossier-challenge-MODULE-04'
 function Copier-SansRemplacer([string]$Origine, [string]$Cible) {
     New-Item -ItemType Directory -Path $Cible -Force | Out-Null
     foreach ($element in Get-ChildItem -LiteralPath $Origine -Force) {
-        if ($element.Name -in @('.git', 'node_modules', '.venv', '__pycache__')) { continue }
+        if ($element.Name -in @('.git', 'node_modules', '.venv', '__pycache__', '02-PROMPT')) { continue }
         $chemin = Join-Path $Cible $element.Name
         if ($element.PSIsContainer) { Copier-SansRemplacer $element.FullName $chemin }
         elseif (-not (Test-Path -LiteralPath $chemin)) { Copy-Item -LiteralPath $element.FullName -Destination $chemin }

@@ -26,6 +26,7 @@ function route(first=false){const page=content.rubriques.find(v=>v[0]===location
 $('#menu-toggle').onclick=e=>e.currentTarget.setAttribute('aria-expanded',String(e.currentTarget.getAttribute('aria-expanded')!=='true'))
 window.addEventListener('hashchange',()=>route())
 const dialog=$('#projection')
+$$('[data-copy-document]').forEach(button=>button.onclick=()=>{const source=$('#document-prompt-'+button.dataset.copyDocument);source.closest('details').open=true;copy(source.textContent,source)})
 function drawSlide(){
  const d=content.slides[slide];$('#slide-no').textContent='DIAPOSITIVE '+pad(slide+1)+' / '+pad(content.slides.length);$('#slide-title').textContent=d.title;$('#slide-lead').textContent=d.lead
  const target=$('#slide-body')

@@ -18,8 +18,8 @@ La séance 16 transforme les acquis S13, S14 et S15 en une production locale vé
 |---|---|
 | Animer ou projeter l'atelier hors connexion | [OUVRIR-SEANCE-16.html](OUVRIR-SEANCE-16.html) |
 | Poursuivre son travail dans le dossier commun actuel | [Accueil du Module 04](mon-dossier-challenge-MODULE-04/ACCUEIL-MODULE-04.html) |
-| Suivre les consignes du participant | [Instructions participant S16](mon-dossier-challenge-MODULE-04/02-PROMPT/01-INSTRUCTIONS-PARTICIPANT-S16.md) |
-| Se faire accompagner étape par étape | [Prompt maître S16](mon-dossier-challenge-MODULE-04/02-PROMPT/02-PROMPT-MAÎTRE-S16.md) |
+| Suivre les consignes du participant | [Instructions participant S16](02-PROMPT/01-INSTRUCTIONS-PARTICIPANT-S16.md) |
+| Se faire accompagner étape par étape | [Prompt maître S16](02-PROMPT/02-PROMPT-MAÎTRE-S16.md) |
 | Préparer l'animation | [COMMENCER-ICI.md](COMMENCER-ICI.md) |
 | Comprendre les étapes S13 à S16 | [Parcours du Module 04](mon-dossier-challenge-MODULE-04/00-pilotage/PARCOURS-MODULE-04.md) |
 
@@ -132,10 +132,10 @@ atelier-seance-16-ln-ia/
 ├── COMMENCER-ICI.md                   Guide d'animation et préparation
 ├── OUVRIR-SEANCE-16.html              Atelier autonome avec ressources
 ├── Affiches-module04/                Images originales du parcours
+├── 02-PROMPT/                        Instructions et prompts S13 à S16
 ├── mon-dossier-challenge-MODULE-04/   Dossier actuel de progression
 │   ├── ACCUEIL-MODULE-04.html         Entrée pratique du participant
 │   ├── 00-pilotage/                   Parcours, suivi et contrôles
-│   ├── 02-PROMPT/                     Instructions et prompts S13 à S16
 │   ├── 03-sources/                    Sources du projet
 │   ├── 04-communication/              Messages, données et exports
 │   ├── 05-automatisation/             Notebook et guides d'exécution
