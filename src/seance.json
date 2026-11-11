@@ -1,0 +1,893 @@
+{
+  "slides": [
+    {
+      "label": "CHALLENGE 100 JOURS  /  AUTOMNE 2026",
+      "title": "Du notebook au message corrigé",
+      "lead": "Exécutez, corrigez, puis rouvrez votre production.",
+      "points": [
+        "Lundi 16 novembre 2026",
+        "Module 04 · Séance 16 · Produire",
+        "90 minutes · Prof. Abderrahman El Hisse"
+      ],
+      "note": "À l’accueil, faites ouvrir le kit candidat. Gardez le dossier de démonstration du formateur séparé.",
+      "layout": "cover"
+    },
+    {
+      "label": "OUVERTURE",
+      "title": "Où est votre correction ?",
+      "lead": "Si je ferme Jupyter, où puis-je retrouver la phrase que vous avez corrigée et la raison de votre choix ?",
+      "points": [
+        "Ouvrez deux fenêtres : Jupyter et votre dossier de travail."
+      ],
+      "note": "0–10 min. Laissez chacun indiquer le fichier qu’il pense montrer à la fin. Revenez à cette question à la minute 85.",
+      "layout": "question"
+    },
+    {
+      "label": "POINT DE DÉPART",
+      "title": "Reprendre les trois traces",
+      "lead": "Retrouvez un fait, une rédaction personnelle et une règle.",
+      "points": [
+        [
+          "Séance",
+          "Pièce à ouvrir",
+          "Ce qu’elle apporte"
+        ],
+        [
+          "S13",
+          "Fiche de communication",
+          "Un fait relié au guide S12 et une action."
+        ],
+        [
+          "S14",
+          "Message court du projet",
+          "Une version humaine pour comparer les textes."
+        ],
+        [
+          "S15",
+          "Données pour S16",
+          "Six champs, leurs sources et la règle testée."
+        ]
+      ],
+      "note": "Sans dossier personnel, utilisez le cas fictif du guide S12. La fiche de Samira reste un autre point de départ.",
+      "layout": "table"
+    },
+    {
+      "label": "POSTE DU CANDIDAT",
+      "title": "Préparer le dossier",
+      "lead": "Décompressez le kit puis ouvrez le notebook dans 05-automatisation.",
+      "points": [
+        [
+          "Dossier",
+          "À y retrouver"
+        ],
+        [
+          "04-communication",
+          "Le JSON de S15 et le Markdown de S14."
+        ],
+        [
+          "05-automatisation",
+          "communication-assistee.ipynb, à enregistrer avec ses sorties."
+        ],
+        [
+          "07-portfolio",
+          "L’index des preuves à compléter après observation."
+        ]
+      ],
+      "note": "Vérifiez le chemin affiché en C1. Dans VS Code, choisissez le noyau Python 3. Dans Jupyter, redémarrez le noyau avant l’essai.",
+      "layout": "table"
+    },
+    {
+      "label": "CELLULE 1  /  INFORMATIONS",
+      "title": "Vérifier les données S15",
+      "lead": "Le projet, le public et l’action doivent être reconnaissables.",
+      "points": [
+        [
+          "Champ",
+          "Valeur de démonstration"
+        ],
+        [
+          "Projet",
+          "Révision du guide S12"
+        ],
+        [
+          "Public",
+          "Formateurs débutants"
+        ],
+        [
+          "Action",
+          "Souhaitez-vous voir un extrait du journal de corrections ?"
+        ]
+      ],
+      "note": "10–25 min. Faites nommer aussi le besoin, la proposition et le format. Chaque valeur a une source ou une justification. Un véritable export incomplet doit être repris en S15.",
+      "layout": "table"
+    },
+    {
+      "label": "CELLULE 2  /  MESSAGE SOURCE",
+      "title": "Comparer avec les mots du candidat",
+      "lead": "Retrouvez les deux formulations de la même idée.",
+      "points": [
+        [
+          "Rédaction humaine S14",
+          "Le journal dit ce que j’ai changé et pourquoi."
+        ],
+        [
+          "Proposition du gabarit",
+          "Le journal documente les modifications et leurs motifs."
+        ]
+      ],
+      "note": "Lisez aussi la question finale dans chaque message. Demandez au groupe de montrer l’appui dans le journal des corrections, colonne « Raison et contrôle à réaliser ».",
+      "layout": "pair"
+    },
+    {
+      "label": "CELLULE 3  /  BROUILLONS",
+      "title": "Trois formats avant le changement",
+      "lead": "Chaque gabarit rend la même proposition et la même action.",
+      "points": [
+        [
+          "Format",
+          "Construction",
+          "Caractères"
+        ],
+        [
+          "Court",
+          "Proposition et action.",
+          "114"
+        ],
+        [
+          "Accessible",
+          "Salutation, besoin et proposition.",
+          "166"
+        ],
+        [
+          "Professionnel",
+          "Objet et destinataire explicites.",
+          "174"
+        ]
+      ],
+      "note": "Faites lire les trois sorties complètes dans le notebook. Pour la suite, indiquez celle où apparaît le public. Les nombres valent pour le cas fictif fourni.",
+      "layout": "table"
+    },
+    {
+      "label": "CELLULE 4  /  PRÉDIRE",
+      "title": "Quel texte va changer ?",
+      "lead": "Le formateur précise le public visé.",
+      "points": [
+        [
+          "Valeur initiale",
+          "Formateurs débutants"
+        ],
+        [
+          "Nouvelle valeur",
+          "Formateurs débutants en binôme"
+        ]
+      ],
+      "note": "Avant de lancer, chacun prédit les formats touchés. Une personne expliquera sa prévision à partir des champs présents dans les trois gabarits.",
+      "layout": "pair"
+    },
+    {
+      "label": "CELLULE 4  /  OBSERVER",
+      "title": "Comparer les deux exécutions",
+      "lead": "Seul le format professionnel contient le champ public.",
+      "points": [
+        [
+          "Format",
+          "Avant",
+          "Après",
+          "Observation"
+        ],
+        [
+          "Court",
+          "114",
+          "114",
+          "Texte identique"
+        ],
+        [
+          "Accessible",
+          "166",
+          "166",
+          "Texte identique"
+        ],
+        [
+          "Professionnel",
+          "174",
+          "184",
+          "La ligne Public change"
+        ]
+      ],
+      "note": "Le groupe vérifie le texte complet et les nombres. Ici, les dix caractères supplémentaires correspondent à « en binôme » avec son espace initial.",
+      "layout": "table"
+    },
+    {
+      "label": "CELLULE 4  /  CONTRÔLER",
+      "title": "Interpréter les signaux",
+      "lead": "Python mesure la longueur et compte les occurrences de l’action.",
+      "points": [
+        [
+          "Essai",
+          "Signal attendu"
+        ],
+        [
+          "Texte renseigné de 400 caractères",
+          "Longueur acceptable"
+        ],
+        [
+          "Même texte avec un X supplémentaire",
+          "À raccourcir"
+        ],
+        [
+          "Action vide dans les données",
+          "À compléter"
+        ]
+      ],
+      "note": "Rappelez le contre-exemple de S15 (« Ce guide doublera vos notes. »). La fidélité, le ton et l’unicité réelle de la demande exigent une lecture.",
+      "layout": "table"
+    },
+    {
+      "label": "CELLULE 5  /  DÉCIDER",
+      "title": "Corriger un passage précis",
+      "lead": "Le candidat choisit le courriel professionnel du cas fictif.",
+      "points": [
+        [
+          "Avant",
+          "Le journal documente les modifications et leurs motifs."
+        ],
+        [
+          "Après",
+          "Le journal explique ce qui a changé et pourquoi."
+        ]
+      ],
+      "note": "55–70 min pour modifier une donnée puis 70–85 pour corriger et exporter. Demandez le motif et l’appui dans le journal. La version corrigée entière compte 177 caractères.",
+      "layout": "pair"
+    },
+    {
+      "label": "CELLULE 6  /  RELIRE",
+      "title": "Rouvrir le fichier sur disque",
+      "lead": "Dans le Markdown, recherchez la rubrique « Message corrigé ».",
+      "points": [
+        "Objet : Révision du guide S12\nPublic : Formateurs débutants en binôme\nLe journal explique ce qui a changé et pourquoi. Souhaitez-vous voir un extrait du journal de corrections ?",
+        "Retrouvez « ce qui a changé et pourquoi » dans cette rubrique."
+      ],
+      "note": "Ouvrez 04-communication/variantes-communication-projet.md dans l’éditeur. Distinguez la section finale du passage cité dans l’historique. Enregistrez le notebook avec Ctrl+S.",
+      "layout": "quote"
+    },
+    {
+      "label": "ASSISTANCE  /  AGENT RELECTEUR",
+      "title": "Confier une lecture à l’agent",
+      "lead": "Sur les pièces fictives, l’agent rend un relevé que le candidat peut contester.",
+      "points": [
+        [
+          "Entrées",
+          "Guide S12, journal et Markdown rouvert."
+        ],
+        [
+          "Sortie",
+          "Affirmation · extrait d’appui · écart · reprise proposée."
+        ],
+        [
+          "Point d’arrêt",
+          "Le candidat vérifie l’extrait. Le pilote examine la preuve."
+        ]
+      ],
+      "note": "Montrez le mandat fourni et son exemple de réponse. Un agent lecteur ne peut pas témoigner d’un geste qu’il n’a pas observé. Un exemple hors ligne est disponible.",
+      "layout": "rows"
+    },
+    {
+      "label": "ATELIER  /  30 MINUTES",
+      "title": "À vous de produire",
+      "lead": "De la minute 25 à la minute 55, travaillez sur votre poste.",
+      "points": [
+        [
+          "10 min",
+          "Renseignez la source et comparez votre message humain."
+        ],
+        [
+          "10 min",
+          "Exécutez les trois gabarits, puis repérez leurs différences."
+        ],
+        [
+          "10 min",
+          "Faites lire la règle et préparez une prédiction écrite."
+        ]
+      ],
+      "note": "Ensuite, 15 minutes pour changer une donnée et comparer les sorties. Puis 15 minutes pour saisir votre correction, exporter et rouvrir. En binôme, alternez les rôles.",
+      "layout": "rows"
+    },
+    {
+      "label": "REPRISE  /  INCIDENTS",
+      "title": "Savoir reprendre un essai",
+      "lead": "Lisez le message de contrôle avant de relancer.",
+      "points": [
+        [
+          "Situation",
+          "Reprise"
+        ],
+        [
+          "JSON incomplet",
+          "Compléter la valeur et son appui dans S15."
+        ],
+        [
+          "Passage avant introuvable",
+          "Recopier le passage exact du brouillon sélectionné."
+        ],
+        [
+          "Nouveau contenu exporté",
+          "Retrouver l’ancienne version dans historique/."
+        ],
+        [
+          "Poste indisponible",
+          "Commenter la sortie fournie. Prévoir ensuite l’exécution individuelle."
+        ]
+      ],
+      "note": "Un export identique peut être rejoué sans nouvelle archive. Un export modifié conserve la version précédente. Le repli papier ne prouve pas une exécution individuelle.",
+      "layout": "table"
+    },
+    {
+      "label": "CLÔTURE  /  PREUVE 16",
+      "title": "Faire montrer les deux fichiers",
+      "lead": "Dans le portfolio, inscrire preuve-16-notebook-communication-assistee.",
+      "points": [
+        [
+          "05-automatisation/",
+          "communication-assistee.ipynb · cellules et sorties enregistrées."
+        ],
+        [
+          "04-communication/",
+          "variantes-communication-projet.md · correction retrouvée après réouverture."
+        ],
+        [
+          "À dire",
+          "Voici le fait source, le changement observé et la raison de ma correction."
+        ]
+      ],
+      "note": "85–90 min. Demandez au candidat de montrer la source, la donnée modifiée et le passage retrouvé. Le pilote renseigne son observation et le statut.",
+      "layout": "rows"
+    },
+    {
+      "label": "CLÔTURE  /  MODULE 04",
+      "title": "Examiner les quatre preuves",
+      "lead": "Une ligne par séance dans 07-portfolio/preuves-module-04.md.",
+      "points": [
+        [
+          "Séance",
+          "Observation à demander"
+        ],
+        [
+          "S13",
+          "Montrer le passage du guide et l’action choisie."
+        ],
+        [
+          "S14",
+          "Comparer les tons et justifier une correction."
+        ],
+        [
+          "S15",
+          "Expliquer un invariant, une variable et les deux tests."
+        ],
+        [
+          "S16",
+          "Rouvrir le résultat et retrouver la correction saisie."
+        ]
+      ],
+      "note": "À COMPLÉTER si une pièce manque. À REVOIR si un écart est constaté. À VALIDER après observation. Le statut VALIDÉ reste une décision explicite du pilote.",
+      "layout": "table"
+    },
+    {
+      "label": "TRANSMISSION  /  MODULE 05",
+      "title": "Ce qui passera sur la page web",
+      "lead": "Prélevez trois éléments dans votre version relue.",
+      "points": [
+        [
+          "Titre",
+          "Révision du guide S12"
+        ],
+        [
+          "Paragraphe",
+          "Le journal explique ce qui a changé et pourquoi."
+        ],
+        [
+          "Action",
+          "Souhaitez-vous voir un extrait du journal de corrections ?"
+        ]
+      ],
+      "note": "Associez le chemin de la source et le statut du brouillon. Préparer la future page ne donne pas une autorisation de diffusion. Le prolongement de 30 minutes compare un visuel textuel ou un brouillon LinkedIn local.",
+      "layout": "rows"
+    }
+  ],
+  "rubriques": [
+    [
+      "accueil",
+      "Accueil",
+      "home"
+    ],
+    [
+      "presentation",
+      "Présentation",
+      "play"
+    ],
+    [
+      "methode",
+      "Méthode",
+      "compass"
+    ],
+    [
+      "demonstration",
+      "Démonstration",
+      "layers"
+    ],
+    [
+      "atelier",
+      "Atelier",
+      "edit"
+    ],
+    [
+      "prompts",
+      "Prompts",
+      "braces"
+    ],
+    [
+      "flashcards",
+      "Flashcards",
+      "cards"
+    ],
+    [
+      "quiz",
+      "Quiz",
+      "help"
+    ],
+    [
+      "validation",
+      "Validation",
+      "check"
+    ],
+    [
+      "portfolio",
+      "Portfolio",
+      "folder"
+    ],
+    [
+      "ressources",
+      "Ressources",
+      "book"
+    ]
+  ],
+  "cards": [
+    [
+      "Que conserve la fiche de S15 pour chaque champ ?",
+      "Sa valeur et une source ou une justification."
+    ],
+    [
+      "Pourquoi garder la rédaction humaine de S14 ?",
+      "Elle permet de vérifier que le gabarit a conservé le fait et l’action choisis par le candidat."
+    ],
+    [
+      "Où le public apparaît-il dans les trois gabarits du cas fictif ?",
+      "Dans la ligne « Public » du format professionnel."
+    ],
+    [
+      "Que permet une prédiction écrite avant l’essai ?",
+      "La comparer ensuite aux sorties réelles, même si elle était fausse."
+    ],
+    [
+      "Que vaut un compteur de 177 caractères ?",
+      "Pour ce texte, le seuil de 400 est respecté. Il reste à examiner le sens et l’action."
+    ],
+    [
+      "Où vérifier la correction finale ?",
+      "Dans la section « Message corrigé » du Markdown rouvert sur disque."
+    ],
+    [
+      "Quelle pièce conserve les sorties des cellules ?",
+      "Le fichier communication-assistee.ipynb enregistré après l’exécution."
+    ],
+    [
+      "Qui décide du statut VALIDÉ ?",
+      "Le pilote, après avoir examiné la production et entendu le candidat."
+    ]
+  ],
+  "quiz": [
+    [
+      "La source S15 ne fournit aucune action. Quel geste effectuer ?",
+      [
+        "Compléter la fiche et son appui",
+        "Créer une action plausible",
+        "Valider car le texte est court"
+      ],
+      0,
+      "Le message doit garder l’action choisie par le candidat."
+    ],
+    [
+      "Vous modifiez seulement le public dans l’exemple. Quel texte change ?",
+      [
+        "Le court",
+        "Le professionnel",
+        "Les trois"
+      ],
+      1,
+      "Seul le gabarit professionnel insère le public."
+    ],
+    [
+      "Que prouve une occurrence exacte de l’action ?",
+      [
+        "La fidélité de chaque phrase",
+        "L’autorisation de diffusion",
+        "La présence de cette chaîne une fois"
+      ],
+      2,
+      "Une seconde demande peut être formulée avec d’autres mots."
+    ],
+    [
+      "Quel passage permet de constater votre correction ?",
+      [
+        "La cellule 2 seule",
+        "La section Message corrigé du fichier rouvert",
+        "Le score du quiz"
+      ],
+      1,
+      "Le pilote doit retrouver dans le fichier le passage réellement saisi."
+    ],
+    [
+      "Un candidat commente la sortie préparée pendant une panne. Que consigner ?",
+      [
+        "Exécution individuelle à démontrer",
+        "VALIDÉ",
+        "Diffusion autorisée"
+      ],
+      0,
+      "Le formateur peut observer la compréhension puis planifier une reprise au poste."
+    ],
+    [
+      "Quelle pièce transmettre à M05 ?",
+      [
+        "Le premier brouillon isolé",
+        "Le notebook sans sorties",
+        "Titre, paragraphe et action reliés à la version relue"
+      ],
+      2,
+      "Le candidat joint le chemin et le statut de l’extrait."
+    ]
+  ],
+  "prompts": [
+    [
+      "S13 · Lire",
+      "Repérer les faits",
+      "Sur le guide fictif S12 et son journal, relève deux faits. Pour chacun, donne le document, la rubrique et une citation courte. Inscris « à confirmer » si l’appui manque. Termine après ces deux lignes."
+    ],
+    [
+      "S14 · Comparer",
+      "Comparer des formulations",
+      "Lis les trois brouillons fictifs et leur fiche de faits. Indique le ton, le fait préservé, l’action et un risque de sens pour chaque texte. Rends un tableau. Je choisirai le canal et la formulation."
+    ],
+    [
+      "S15 · Éprouver",
+      "Préparer deux essais",
+      "Sur la règle du seuil de 400 caractères, propose deux entrées reproductibles de 400 et 401 caractères puis une affirmation courte sans appui dans la fiche de Samira. Distingue tes prédictions des résultats que le groupe devra réellement exécuter."
+    ],
+    [
+      "S16 · Relire",
+      "Examiner le fichier rouvert",
+      "Lis seulement le guide fictif S12, son journal et le fichier variantes-communication-projet.md. Compare le passage brut au texte sous « Message corrigé ». Rends un tableau à quatre colonnes : critère, extrait et repère, écart, reprise proposée. Cherche un appui pour le fait et contrôle l’action. Si tu ne peux pas observer le poste ou la réouverture, indique « non observable dans les pièces ». Arrête-toi après le tableau. Le candidat corrige et le pilote statue."
+    ]
+  ],
+  "sequence": [
+    [
+      "0–10",
+      "Retrouver S13, S14 et S15",
+      "Ouvre le guide, la rédaction humaine et le JSON ou le jeu fictif.",
+      "Le candidat situe son fait et l’action."
+    ],
+    [
+      "10–25",
+      "Projeter les six cellules",
+      "Prédit le format touché puis lit le Markdown de démonstration.",
+      "Le groupe repère la différence entre affichage et fichier."
+    ],
+    [
+      "25–55",
+      "Accompagner le travail individuel",
+      "Renseigne la fiche, relance les cellules 1–3 et compare ses trois sorties.",
+      "Trois brouillons et un fait commun sont visibles."
+    ],
+    [
+      "55–70",
+      "Faire tester un changement",
+      "Écrit la prédiction, modifie une seule valeur, puis exécute la cellule 4.",
+      "Un avant/après et le résultat observé sont expliqués."
+    ],
+    [
+      "70–85",
+      "Faire corriger, exporter et rouvrir",
+      "Saisit sa correction et son motif. Exécute 5 et 6, ouvre le Markdown et enregistre le notebook.",
+      "La section finale contient la correction du candidat."
+    ],
+    [
+      "85–90",
+      "Examiner les preuves et ouvrir M05",
+      "Montre les deux fichiers et propose un titre, un paragraphe et une action.",
+      "Le pilote consigne l’observation ou la reprise."
+    ]
+  ],
+  "cas": {
+    "ouverture": "Si je ferme Jupyter, où puis-je retrouver la phrase que vous avez corrigée et la raison de votre choix ?",
+    "humaine": "J’ai gardé les deux versions du guide. Le journal dit ce que j’ai changé et pourquoi. Souhaitez-vous voir un extrait du journal de corrections ?",
+    "donnees": {
+      "projet": "Révision du guide S12",
+      "public": "Formateurs débutants",
+      "besoin": "comprendre une correction",
+      "proposition": "Le journal documente les modifications et leurs motifs.",
+      "action": "Souhaitez-vous voir un extrait du journal de corrections ?",
+      "format": "professionnel"
+    },
+    "appuis": {
+      "projet": "Guide S12, titre et étape 5. Titre court choisi pour le courriel.",
+      "public": "Cas fictif S13/S14, public retenu par le formateur.",
+      "besoin": "Objectif de la trace fictive S13 et journal V1/V2.",
+      "proposition": "Journal des corrections V1/V2, lignes de fond et de forme.",
+      "action": "Trace S14, version humaine et variante professionnelle.",
+      "format": "Courriel retenu dans le cas fictif S14."
+    },
+    "regle": "Si un texte renseigné dépasse 400 caractères, le signaler.",
+    "essai": {
+      "initial": {
+        "projet": "Révision du guide S12",
+        "public": "Formateurs débutants",
+        "besoin": "comprendre une correction",
+        "proposition": "Le journal documente les modifications et leurs motifs.",
+        "action": "Souhaitez-vous voir un extrait du journal de corrections ?",
+        "format": "professionnel"
+      },
+      "donnees": {
+        "projet": "Révision du guide S12",
+        "public": "Formateurs débutants en binôme",
+        "besoin": "comprendre une correction",
+        "proposition": "Le journal documente les modifications et leurs motifs.",
+        "action": "Souhaitez-vous voir un extrait du journal de corrections ?",
+        "format": "professionnel"
+      },
+      "champ": "public",
+      "origine": "Choix pédagogique du formateur pour la relecture en binôme du 16 novembre.",
+      "prediction": "Seul le format professionnel nomme le public. Les deux autres textes devraient rester identiques.",
+      "avant": {
+        "court": "Le journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
+        "accessible": "Bonjour ! Votre besoin : comprendre une correction.\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
+        "professionnel": "Objet : Révision du guide S12\nPublic : Formateurs débutants\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?"
+      },
+      "versions": {
+        "court": "Le journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
+        "accessible": "Bonjour ! Votre besoin : comprendre une correction.\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
+        "professionnel": "Objet : Révision du guide S12\nPublic : Formateurs débutants en binôme\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?"
+      },
+      "modifies": [
+        "professionnel"
+      ],
+      "controles": {
+        "court": {
+          "longueur": 114,
+          "presence": true,
+          "signal": "Longueur acceptable",
+          "action_exacte": 1
+        },
+        "accessible": {
+          "longueur": 166,
+          "presence": true,
+          "signal": "Longueur acceptable",
+          "action_exacte": 1
+        },
+        "professionnel": {
+          "longueur": 184,
+          "presence": true,
+          "signal": "Longueur acceptable",
+          "action_exacte": 1
+        }
+      }
+    },
+    "revision": {
+      "choix": "professionnel",
+      "brut": "Objet : Révision du guide S12\nPublic : Formateurs débutants en binôme\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
+      "avant": "Le journal documente les modifications et leurs motifs.",
+      "apres": "Le journal explique ce qui a changé et pourquoi.",
+      "texte": "Objet : Révision du guide S12\nPublic : Formateurs débutants en binôme\nLe journal explique ce qui a changé et pourquoi. Souhaitez-vous voir un extrait du journal de corrections ?",
+      "motif": "Pour des formateurs débutants, « ce qui a changé et pourquoi » rend le rôle du journal plus facile à comprendre.",
+      "appui": "Journal S12 V1/V2, correction « Forme — accessibilité » et colonne « Raison et contrôle à réaliser ».",
+      "canal": "Courriel au groupe de formation.",
+      "controle": {
+        "longueur": 177,
+        "presence": true,
+        "signal": "Longueur acceptable",
+        "action_exacte": 1
+      }
+    },
+    "sha256": "102531ef59ba1d638e4956a9852e25c61ec31685266772822427a28e6fb4e722",
+    "champ": "public",
+    "nouvelle": "Formateurs débutants en binôme",
+    "origine": "Choix pédagogique du formateur pour la relecture en binôme du 16 novembre.",
+    "prediction": "Seul le format professionnel nomme le public. Les deux autres textes devraient rester identiques.",
+    "choix": "professionnel",
+    "avant": "Le journal documente les modifications et leurs motifs.",
+    "apres": "Le journal explique ce qui a changé et pourquoi.",
+    "motif": "Pour des formateurs débutants, « ce qui a changé et pourquoi » rend le rôle du journal plus facile à comprendre.",
+    "appui": "Journal S12 V1/V2, correction « Forme — accessibilité » et colonne « Raison et contrôle à réaliser ».",
+    "canal": "Courriel au groupe de formation."
+  },
+  "groups": [
+    [
+      "Projeter et animer",
+      [
+        [
+          "projection/seance-16-du-notebook-au-message-corrige.pptx",
+          "Présentation et notes éditables",
+          "PPTX"
+        ],
+        [
+          "projection/seance-16-du-notebook-au-message-corrige.pdf",
+          "Diaporama de 18 pages",
+          "PDF"
+        ],
+        [
+          "documents/conducteur-formateur-s16.pdf",
+          "Conducteur de 90 minutes",
+          "PDF"
+        ],
+        [
+          "documents/conducteur-formateur-s16.docx",
+          "Conducteur modifiable",
+          "DOCX"
+        ]
+      ]
+    ],
+    [
+      "Travailler et clôturer",
+      [
+        [
+          "atelier/kit-candidat-s16.zip",
+          "Kit candidat prêt à décompresser",
+          "ZIP"
+        ],
+        [
+          "documents/fiche-candidat-s16.pdf",
+          "Fiche candidat remplissable",
+          "PDF"
+        ],
+        [
+          "documents/fiche-candidat-s16.docx",
+          "Fiche candidat modifiable",
+          "DOCX"
+        ],
+        [
+          "documents/bilan-module-04.pdf",
+          "Bilan des quatre preuves et passage à M05",
+          "PDF"
+        ],
+        [
+          "documents/bilan-module-04.docx",
+          "Bilan de clôture modifiable",
+          "DOCX"
+        ],
+        [
+          "atelier/mode-emploi-candidat.md",
+          "Mode d’emploi du kit",
+          "MD"
+        ],
+        [
+          "atelier/entree-preuve-16.md",
+          "Entrée de portfolio S16",
+          "MD"
+        ],
+        [
+          "atelier/bilan-quatre-preuves.md",
+          "Index des quatre preuves",
+          "MD"
+        ],
+        [
+          "atelier/relais-module-05.md",
+          "Titre, paragraphe et action pour M05",
+          "MD"
+        ]
+      ]
+    ],
+    [
+      "Rejouer la démonstration",
+      [
+        [
+          "demo/communication-assistee.ipynb",
+          "Notebook candidat autonome · six cellules",
+          "IPYNB"
+        ],
+        [
+          "demo/communication-assistee-demonstration.ipynb",
+          "Notebook du formateur avec sorties",
+          "IPYNB"
+        ],
+        [
+          "demo/donnees-s15-exemple.json",
+          "Cas fictif au format réel de S15",
+          "JSON"
+        ],
+        [
+          "demo/variantes-exemple-rouvert.md",
+          "Markdown effectivement exporté puis rouvert",
+          "MD"
+        ],
+        [
+          "demo/sorties-demonstration.md",
+          "Sorties du formateur pour les postes indisponibles",
+          "MD"
+        ],
+        [
+          "demo/demonstration-s16.py",
+          "Démonstration équivalente en Python standard",
+          "PY"
+        ],
+        [
+          "documents/corrige-demonstration-s16.pdf",
+          "Corrigé de démonstration",
+          "PDF"
+        ],
+        [
+          "documents/corrige-demonstration-s16.docx",
+          "Corrigé modifiable",
+          "DOCX"
+        ],
+        [
+          "demo/verifier-noyau-s16.py",
+          "Essai du formateur dans un nouveau noyau Jupyter local",
+          "PY"
+        ]
+      ]
+    ],
+    [
+      "Consulter les sources et les mandats",
+      [
+        [
+          "sources/guide-pratique-v1.md",
+          "Version initiale du guide S12 pour comparaison",
+          "MD"
+        ],
+        [
+          "sources/guide-pratique-v2-a-relire.md",
+          "Guide fictif S12 · V2 à relire",
+          "MD"
+        ],
+        [
+          "sources/journal-corrections-v1-v2.md",
+          "Journal du guide S12 · V1/V2",
+          "MD"
+        ],
+        [
+          "sources/message-s14-exemple.md",
+          "Version humaine et variantes S14",
+          "MD"
+        ],
+        [
+          "sources/fiche-source-samira.md",
+          "Fiche de remplacement de Samira",
+          "MD"
+        ],
+        [
+          "sources/fiche-guide-ete-v5.md",
+          "Fiche du guide professionnel V5 de l’été",
+          "MD"
+        ],
+        [
+          "sources/prompt-maitre-module-04.md",
+          "Prompt maître de conduite du Module 04",
+          "MD"
+        ],
+        [
+          "atelier/prompts-agents-module-04.md",
+          "Quatre missions progressives pour les agents",
+          "MD"
+        ],
+        [
+          "demo/mandat-et-releve-agent.md",
+          "Mandat et exemple de relevé du relecteur",
+          "MD"
+        ],
+        [
+          "atelier/prolongement-guide-ete.md",
+          "Prolongement de 30 min · visuel ou LinkedIn local",
+          "MD"
+        ]
+      ]
+    ]
+  ]
+}

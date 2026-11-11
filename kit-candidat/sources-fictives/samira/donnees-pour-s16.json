@@ -1,0 +1,59 @@
+{
+  "schema": "ln-ia-preparation-s16/v1",
+  "seance": "S15 · 13 novembre 2026",
+  "statut": "BROUILLON — À RELIRE",
+  "champs": [
+    {
+      "champ": "projet",
+      "valeur": "Organiser une semaine de révisions",
+      "source_ou_justification": "Fiche fictive de Samira, première section."
+    },
+    {
+      "champ": "public",
+      "valeur": "Étudiants",
+      "source_ou_justification": "Fiche fictive de Samira, public des révisions."
+    },
+    {
+      "champ": "besoin",
+      "valeur": "organiser la semaine de révisions",
+      "source_ou_justification": "Fiche fictive de Samira, première section."
+    },
+    {
+      "champ": "proposition",
+      "valeur": "Le mini-guide propose un planning hebdomadaire et une liste de vérification.",
+      "source_ou_justification": "Fiche fictive de Samira, outils annoncés."
+    },
+    {
+      "champ": "action",
+      "valeur": "Souhaitez-vous voir un aperçu ?",
+      "source_ou_justification": "Version humaine de Samira et ses variantes S14."
+    },
+    {
+      "champ": "format",
+      "valeur": "accessible",
+      "source_ou_justification": "Choix pour le groupe de révisions, cas fictif."
+    }
+  ],
+  "regle_decrite_par_le_candidat": "Si un texte renseigné dépasse 400 caractères, le signaler.",
+  "regle_etalon": {
+    "precondition": "texte renseigné",
+    "test": "longueur > 400",
+    "si_vrai": "À raccourcir",
+    "sinon": "Longueur acceptable"
+  },
+  "moteur_observe": "JavaScript local du navigateur",
+  "essais": [
+    {
+      "longueur": 400,
+      "prediction": "Longueur acceptable",
+      "observation": "Longueur acceptable"
+    },
+    {
+      "longueur": 401,
+      "prediction": "À raccourcir",
+      "observation": "À raccourcir"
+    }
+  ],
+  "limite": "La longueur ne vérifie pas les faits.",
+  "decision_du_pilote": null
+}

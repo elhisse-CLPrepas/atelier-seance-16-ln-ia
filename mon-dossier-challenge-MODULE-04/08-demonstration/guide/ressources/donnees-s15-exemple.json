@@ -1,0 +1,59 @@
+{
+  "schema": "ln-ia-preparation-s16/v1",
+  "seance": "S15 · 13 novembre 2026",
+  "statut": "BROUILLON — À RELIRE",
+  "champs": [
+    {
+      "champ": "projet",
+      "valeur": "Révision du guide S12",
+      "source_ou_justification": "Guide S12, titre et étape 5. Titre court choisi pour le courriel."
+    },
+    {
+      "champ": "public",
+      "valeur": "Formateurs débutants",
+      "source_ou_justification": "Cas fictif S13/S14, public retenu par le formateur."
+    },
+    {
+      "champ": "besoin",
+      "valeur": "comprendre une correction",
+      "source_ou_justification": "Objectif de la trace fictive S13 et journal V1/V2."
+    },
+    {
+      "champ": "proposition",
+      "valeur": "Le journal documente les modifications et leurs motifs.",
+      "source_ou_justification": "Journal des corrections V1/V2, lignes de fond et de forme."
+    },
+    {
+      "champ": "action",
+      "valeur": "Souhaitez-vous voir un extrait du journal de corrections ?",
+      "source_ou_justification": "Trace S14, version humaine et variante professionnelle."
+    },
+    {
+      "champ": "format",
+      "valeur": "professionnel",
+      "source_ou_justification": "Courriel retenu dans le cas fictif S14."
+    }
+  ],
+  "regle_decrite_par_le_candidat": "Si un texte renseigné dépasse 400 caractères, le signaler.",
+  "regle_etalon": {
+    "precondition": "texte renseigné",
+    "test": "longueur > 400",
+    "si_vrai": "À raccourcir",
+    "sinon": "Longueur acceptable"
+  },
+  "moteur_observe": "JavaScript local du navigateur",
+  "essais": [
+    {
+      "longueur": 400,
+      "prediction": "Longueur acceptable",
+      "observation": "Longueur acceptable"
+    },
+    {
+      "longueur": 401,
+      "prediction": "À raccourcir",
+      "observation": "À raccourcir"
+    }
+  ],
+  "limite": "La longueur ne vérifie pas les faits.",
+  "decision_du_pilote": null
+}

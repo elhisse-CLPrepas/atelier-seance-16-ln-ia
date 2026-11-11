@@ -1,0 +1,17 @@
+* text=auto
+*.md text eol=lf whitespace=-blank-at-eol,-blank-at-eof
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+mon-dossier-challenge-MODULE-04/OUVRIR-MODULE-04.html whitespace=-blank-at-eol
+*.css text eol=lf
+*.yml text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.png binary
+*.webp binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.zip binary
