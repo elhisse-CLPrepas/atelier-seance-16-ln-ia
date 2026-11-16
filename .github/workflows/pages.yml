@@ -36,6 +36,8 @@ jobs:
         run: npm run check
       - name: Verifier le dossier commun
         run: node scripts/verifier-dossier-module04.mjs
+      - name: Rejouer le cas pedagogique dans un dossier isole
+        run: python3 scripts/verifier-exemple-s16.py
       - name: Preparer les fichiers publics
         uses: actions/upload-pages-artifact@v4
         with:

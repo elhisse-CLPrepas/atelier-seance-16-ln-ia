@@ -1,0 +1,56 @@
+EXTRAIT de sortie réelle : section du cas fictif retirée sur demande.
+
+1. Retrouver les deux variantes de S14
+Produire avec l’IA sous responsabilité humaine — Guide pratique, V2 à relire. Étape 5 du guide et journal de corrections S12.
+Public : Formateurs débutants qui relisent un premier support produit avec l’IA.
+Faits à conserver : Le dossier conserve les versions V1 et V2 du guide. Le journal explique les corrections et leurs raisons.
+Élément variable : La formulation de la proposition
+A · Le dossier conserve V1 et V2 du guide. Le journal explique chaque correction et sa raison. Souhaitez-vous voir un extrait du journal de corrections ?
+A | 149 caractères | Longueur acceptable
+C corrigée · Le dossier conserve les versions V1 et V2 du guide. Le journal explique ce qui a changé et pourquoi. Souhaitez-vous voir un extrait du journal de corrections ?
+C corrigée | 159 caractères | Longueur acceptable
+Action commune : Souhaitez-vous voir un extrait du journal de corrections ?
+
+2. Assembler un gabarit
+Gabarit : {titre} — {proposition} {action}
+titre = Révision du guide
+proposition = Le journal explique ce qui a changé et pourquoi.
+action = Souhaitez-vous voir un extrait du journal de corrections ?
+Révision du guide — Le journal explique ce qui a changé et pourquoi. Souhaitez-vous voir un extrait du journal de corrections ?
+Gabarit complété | 127 caractères | Longueur acceptable
+
+3. Prédire puis tester la frontière
+Seuil d’exercice : 400 caractères.
+Si la longueur dépasse le seuil, afficher « À raccourcir ».
+Sinon, afficher « Longueur acceptable ».
+Test 1 · motif × 40 | 400 caractères | Longueur acceptable
+Test 2 · même texte + X | 401 caractères | À raccourcir
+Essai de présence | 0 caractère(s) | À compléter | longueur non évaluée
+
+4. Répéter le contrôle sur quatre formats
+Guide Situation-Actuelle-IA · Abderrahman El Hisse · Édition maître V1.0 · juillet 2026
+Fait commun : Huit chapitres et huit annexes
+
+Court
+Guide Situation-Actuelle-IA : huit chapitres et huit annexes. Souhaitez-vous consulter le sommaire ?
+Court | 100 caractères | Longueur acceptable
+Occurrences exactes de l’action : 1
+
+Communautaire
+Vous travaillez avec des collègues sur les usages de l’IA ? Le Guide Situation-Actuelle-IA réunit huit chapitres et huit annexes pour nourrir cet échange. Souhaitez-vous consulter le sommaire ?
+Communautaire | 193 caractères | Longueur acceptable
+Occurrences exactes de l’action : 1
+
+Professionnel
+Dans le Guide Situation-Actuelle-IA, Abderrahman El Hisse présente huit chapitres et huit annexes consacrés à la production et au contrôle des usages de l’IA. Souhaitez-vous consulter le sommaire ?
+Professionnel | 197 caractères | Longueur acceptable
+Occurrences exactes de l’action : 1
+
+Visuel textuel
+Guide Situation-Actuelle-IA — huit chapitres et huit annexes
+Comprendre · Contrôler
+Souhaitez-vous consulter le sommaire ?
+Visuel textuel | 122 caractères | Longueur acceptable
+Occurrences exactes de l’action : 1
+Le visuel textuel comprend un titre, deux mots-clés et une action.
+

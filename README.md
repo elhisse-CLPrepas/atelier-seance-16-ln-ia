@@ -212,3 +212,11 @@ Les affiches sont intégrées à la présentation Web et à sa version autonome.
 - [Contrôle initial de livraison](docs/CONTROLE-S16.md), à lire avec les contrôles locaux plus récents.
 
 La réception pédagogique finale porte sur les productions montrées par chaque participant et la décision explicite du pilote.
+## Exemple pédagogique S15–S16 : Situation-Actuelle-IA
+
+Le dossier `mon-dossier-challenge-MODULE-04/08-accompagnement-S15-S16` est une copie des 29 fichiers d’accompagnement produits dans l’atelier S15. Les traces originales et leurs statuts sont conservés. Ce parcours sert maintenant d’exemple pédagogique dans les rubriques **Démonstration** et **Atelier** : six champs sourcés, changement du public, correction LinkedIn de 284 points de code et relecture technique du Markdown. Le message de référence et la prédiction historiques proviennent de l’assistant ; la réouverture humaine et la décision du pilote restent en attente.
+
+Pour rejouer sans écrire dans un projet personnel, télécharger `public/ressources/accompagnement-s15-s16/rejouer-exemple-s16.ipynb`. Il exporte exclusivement sous `demo-situation-actuelle-ia/04-communication/variantes-communication-exemple.md`. Le notebook original avec sorties est également conservé. Les scripts historiques peuvent dépendre du dossier S15 ; privilégier la copie de répétition. Les anciennes ressources du guide S12 restent disponibles dans Ressources et le diaporama.
+
+Vérification du parcours : `python scripts/verifier-exemple-s16.py`, puis `npm run build`, `npm run check` et `node scripts/verifier-dossier-module04.mjs`.
+

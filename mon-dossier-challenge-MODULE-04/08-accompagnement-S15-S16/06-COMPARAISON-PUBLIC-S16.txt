@@ -1,0 +1,28 @@
+S16 — cellule 4 exécutée avec Python. Public confirmé ; aucune prédiction personnelle recueillie. Prédiction technique de l’assistant explicitement identifiée.
+Étalon 400 · Longueur acceptable
+Étalon 401 · À raccourcir
+Action vide · À compléter
+Prédiction : Prédiction de l’assistant, non du participant : seul le format professionnel changera, car seul ce gabarit affiche le champ public.
+Champ modifié : public | Professionnels et formateurs → Professionnels et formateurs débutant en production avancée IA
+Gabarit source relancé : Situation-Actuelle-IA — Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+
+COURT IDENTIQUE
+Avant : Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/ 
+Après : Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+Contrôle : {'longueur': 174, 'presence': True, 'signal': 'Longueur acceptable', 'action_exacte': 1}
+
+ACCESSIBLE IDENTIQUE
+Avant : Bonjour ! Votre besoin : Production avancée IA avec méthode, tout en gardant le contrôle humain.
+Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/ 
+Après : Bonjour ! Votre besoin : Production avancée IA avec méthode, tout en gardant le contrôle humain.
+Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+Contrôle : {'longueur': 271, 'presence': True, 'signal': 'Longueur acceptable', 'action_exacte': 1}
+
+PROFESSIONNEL MODIFIÉ
+Avant : Objet : Situation-Actuelle-IA
+Public : Professionnels et formateurs
+Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/ 
+Après : Objet : Situation-Actuelle-IA
+Public : Professionnels et formateurs débutant en production avancée IA
+Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+Contrôle : {'longueur': 276, 'presence': True, 'signal': 'Longueur acceptable', 'action_exacte': 1}

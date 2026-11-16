@@ -1,0 +1,14 @@
+{
+  "statut": "BROUILLON — À RELIRE",
+  "provenance": "Trois premières cellules S16 exécutées en Python, adaptations en mémoire documentées",
+  "variantes": {
+    "court": "Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+    "accessible": "Bonjour ! Votre besoin : Production avancée IA avec méthode, tout en gardant le contrôle humain.\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+    "professionnel": "Objet : Situation-Actuelle-IA\nPublic : Professionnels et formateurs\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/"
+  },
+  "mesures_python": {
+    "court": 174,
+    "accessible": 271,
+    "professionnel": 242
+  }
+}

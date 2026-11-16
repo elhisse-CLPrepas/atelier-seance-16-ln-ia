@@ -1,0 +1,25 @@
+{
+  "statut": "BROUILLON — À RELIRE ; adaptation validée dans le chat, non publiée",
+  "provenance": "Proposition assistant acceptée par participant le 16 novembre 2026",
+  "revision": {
+    "choix": "professionnel",
+    "brut": "Objet : Situation-Actuelle-IA\nPublic : Professionnels et formateurs débutant en production avancée IA\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+    "avant": "Objet : Situation-Actuelle-IA\nPublic : Professionnels et formateurs débutant en production avancée IA\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+    "apres": "Comment produire avec méthode ?\n\nVous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain.\n\nConsultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+    "texte": "Comment produire avec méthode ?\n\nVous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain.\n\nConsultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+    "motif": "Adaptation LinkedIn proposée par l’assistant puis explicitement validée par le participant : oui je valide. Remplacer les étiquettes Objet et Public par le titre retenu et une adresse directe au lecteur ; rappeler le pilotage humain.",
+    "appui": "Guide Situation-Actuelle-IA V5, page 2 : sous-titre mentionnant pilotage humain et production avec méthode ; page 4 : produire et contrôler. Public précisé et adaptation finale acceptés dans le chat.",
+    "canal": "LinkedIn",
+    "controle": {
+      "longueur": 284,
+      "presence": true,
+      "signal": "Longueur acceptable",
+      "action_exacte": 1
+    }
+  },
+  "sha256": "c1a26094c7307246901fb084e2544692eb1a61575c6b103c274a671e71026575",
+  "reouverture_technique": true,
+  "reouverture_participant": null,
+  "prediction_participant": null,
+  "decision_pilote_preuve": null
+}

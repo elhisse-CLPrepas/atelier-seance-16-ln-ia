@@ -1,0 +1,27 @@
+S16 : cellules 5 et 6 réellement exécutées avec Python ; notebook original conservé. Libellés de provenance adaptés explicitement.
+Avant : Objet : Situation-Actuelle-IA
+Public : Professionnels et formateurs débutant en production avancée IA
+Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/ 
+Après : Comment produire avec méthode ?
+
+Vous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain.
+
+Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+Brouillon corrigé :
+Comment produire avec méthode ?
+
+Vous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain.
+
+Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+Motif : Adaptation LinkedIn proposée par l’assistant puis explicitement validée par le participant : oui je valide. Remplacer les étiquettes Objet et Public par le titre retenu et une adresse directe au lecteur ; rappeler le pilotage humain.
+Contrôle du texte corrigé : {'longueur': 284, 'presence': True, 'signal': 'Longueur acceptable', 'action_exacte': 1}
+Fichier rouvert : 04-communication\variantes-communication-projet.md
+Version précédente conservée : 04-communication\historique\variantes-communication-projet-v001.md
+Section Message corrigé relue sur disque :
+Comment produire avec méthode ?
+
+Vous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain.
+
+Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+SHA-256 des octets relus : c1a26094c7307246901fb084e2544692eb1a61575c6b103c274a671e71026575
+Enregistrez 05-automatisation/communication-assistee.ipynb avec ses sorties.

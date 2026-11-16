@@ -2,6 +2,7 @@ import {readFile,writeFile} from 'node:fs/promises'
 import {keys,formats,preuves,criteres} from '../src/activites.js'
 import {affiches,preparerAffiches,figure} from './affiches.mjs'
 import {preparerDocumentsPrompts} from './documents-prompts.mjs'
+import './preparer-accompagnement.mjs'
 await preparerAffiches()
 const documentsPrompts=await preparerDocumentsPrompts()
 const root=new URL('../',import.meta.url),load=p=>readFile(new URL(p,root),'utf8')
@@ -29,15 +30,15 @@ const method=[['Mes informations','Retrouvez les six valeurs S15 et leur justifi
 values.method=method.map(([t,b],i)=>'<details class="qcard"><summary><small>CELLULE '+(i+1)+'</small><b>'+t+'</b><i>+</i></summary><p>'+b+'</p></details>').join('')
 const panels=[
  ['Reprendre S15','Dans le cas fictif, retrouvez la proposition et sa source.',table(['Champ','Valeur'],[['Public',cas.donnees.public],['Proposition',cas.donnees.proposition],['Action',cas.donnees.action]])],
- ['Relire S14','Lisez d’abord la rédaction humaine.', '<p class="reviewed-box">'+esc(cas.humaine)+'</p><p>Comparez la phrase sur le journal à la proposition qui alimente le gabarit.</p>'],
+ ['Relire la référence','Proposition IA acceptée dans le parcours S15 ; aucune rédaction humaine S14 antérieure n’est revendiquée.', '<p class="reviewed-box">'+esc(cas.humaine)+'</p><p>Comparez le fait et l’action à la proposition du gabarit.</p>'],
  ['Prédire','Le public devient « '+esc(cas.nouvelle)+' ».','<p>Le format court utilise la proposition et l’action. Le format accessible ajoute le besoin. Le format professionnel ajoute le projet et le public. Annoncez votre prédiction dans le laboratoire ci-dessous.</p>'],
- ['Corriger','Le candidat a choisi le courriel professionnel.', '<p><b>Avant</b></p><p>'+esc(cas.avant)+'</p><p><b>Après</b></p><p>'+esc(cas.apres)+'</p><p>'+esc(cas.motif)+'</p>'],
- ['Rouvrir','Voici la section « Message corrigé » du Markdown relu par Python.', '<pre class="code-output">'+esc(cas.revision.texte)+'</pre><p>177 caractères. Rouvrez vous-même la sortie de démonstration pour repérer le même passage.</p>']
+ ['Corriger','Le brouillon professionnel devient un message LinkedIn.', '<p><b>Avant</b></p><pre class="code-output">'+esc(cas.avant)+'</pre><p><b>Après</b></p><pre class="code-output">'+esc(cas.apres)+'</pre><p>'+esc(cas.motif)+'</p>'],
+ ['Rouvrir','Voici la section « Message corrigé » du Markdown relu techniquement par Python.', '<pre class="code-output">'+esc(cas.revision.texte)+'</pre><p>284 points de code ; une occurrence exacte de l’action. Réouverture humaine et décision du pilote en attente.</p>']
 ]
 values.demobuttons=panels.map(([t],i)=>'<button data-demo="'+i+'"><small>'+pad(i+1)+'</small> '+t+'</button>').join('')
 values.panels=panels.map(([t,l,b],i)=>'<article data-panel="'+i+'"><small class="src-ref">ÉTAPE '+pad(i+1)+' / 05</small><h3>'+t+'</h3><p>'+l+'</p>'+b+'</article>').join('')
 function field(k,l,rows=1,options){const attr=' id="f-'+k+'" name="'+k+'"';let input=options?'<select class="form-select"'+attr+'><option value="">Choisissez</option>'+options.map(a=>'<option>'+esc(a)+'</option>').join('')+'</select>':rows>1?'<textarea rows="'+rows+'" maxlength="5000" class="form-control"'+attr+'></textarea>':'<input class="form-control" maxlength="5000"'+attr+'>';return '<div class="formfield"><label for="f-'+k+'">'+esc(l)+'</label>'+input+'</div>'}
-values.fields=keys.map(k=>field(k,k[0].toUpperCase()+k.slice(1))+field('ref_'+k,'Source ou justification · '+k)).join('')+field('humaine','Ma version humaine S14',3)
+values.fields=keys.map(k=>field(k,k[0].toUpperCase()+k.slice(1))+field('ref_'+k,'Source ou justification · '+k)).join('')+field('humaine','Ma version humaine S14 / référence IA acceptée pour le cas pédagogique',3)
 values.changefields=field('champ','Champ à faire varier',1,keys.slice(0,5))+field('nouvelle','Nouvelle valeur')+field('origine','Source ou justification du changement',2)+field('prediction','Ma prédiction avant l’essai',2)
 values.reviewfields=field('choix','Format à corriger',1,formats)+field('canal','Canal envisagé')+field('avant','Passage brut exact',2)+field('apres','Ma correction',2)+field('motif','Raison de la correction',2)+field('appui','Appui dans la source',2)
 values.proofs=field('typeDossier','Origine des données (projet ou cas fictif)')+field('dateRevue','Date réelle de la revue')+preuves.map(([s])=>field('obs'+s,s+' · fait effectivement observé',2)+field('reprise'+s,s+' · correction ou reprise',2)).join('')+field('passageDisque','Passage retrouvé dans le véritable Markdown Python',3)

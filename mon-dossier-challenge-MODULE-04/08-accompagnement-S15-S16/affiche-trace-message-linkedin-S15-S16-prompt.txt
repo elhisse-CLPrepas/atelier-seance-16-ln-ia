@@ -1,0 +1,41 @@
+﻿Use case: infographic-diagram.
+Créer une affiche pédagogique française premium, verticale format 4:5, haute résolution, pour accompagner une publication LinkedIn et présenter l'atelier LAB-NUMÉRIQUE-IA. Design éditorial clair, élégant et chaleureux, fond ivoire, titres bleu nuit, accents turquoise et orange, grande typographie sans sérif parfaitement lisible, marges généreuses. Composition fluide de haut en bas, diagramme de progression avec six étapes courtes, petits pictogrammes cohérents (document source, deux textes, accolades, terminal, crayon, publication). Pas de photo, pas de robot humanoïde, pas de faux logo LinkedIn, pas de QR code. Une illustration centrale soignée de feuilles et cellules de code reliées par un fil visuel qui aboutit à une carte de message. Le pilote humain est représenté par un petit symbole de main et validation, sans suggérer une publication automatisée.
+
+Tous les textes ci-dessous sont exacts à rendre en français, sans ajout de paragraphes. Hiérarchie et lisibilité prioritaires.
+
+En-tête discret : "LAB-NUMÉRIQUE-IA • CHALLENGE 100 JOURS"
+Grand titre sur deux lignes : "De la trace sourcée\nau message LinkedIn"
+Sous-titre : "Accompagnement S15 → S16"
+Ligne d'intention : "Production avancée IA avec méthode,\ntout en gardant le contrôle humain"
+
+Deux zones successives bien identifiées :
+"S15 • COMPRENDRE ET TESTER"
+Trois étapes reliées :
+"01  SOURCER" / "Lire le guide V5 et conserver les appuis."
+"02  STRUCTURER" / "Comparer A et B. Distinguer invariant et variable."
+"03  TESTER" / "Exécuter la règle de longueur avec Python."
+Petit encart de résultats exacts :
+"400 : longueur acceptable"
+"401 : à raccourcir"
+Annotation courte : "Un texte court peut encore être inexact."
+
+"S16 • PRODUIRE ET CORRIGER"
+Trois étapes reliées :
+"04  ADAPTER" / "Préciser le public et produire trois variantes."
+"05  FAIRE VALIDER" / "Relire et adopter la correction LinkedIn."
+"06  CONSERVER LA TRACE" / "Exporter, relire le fichier et garder les preuves."
+Badge : "Message final : 284 caractères"
+Annotation : "Validation de la preuve : en attente."
+
+Carte de message dans le tiers inférieur, contenant EXACTEMENT ce texte :
+"Comment produire avec méthode ?"
+"Vous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain."
+Petit statut dans la carte : "Texte validé dans l’échange • Non publié"
+En dessous CTA : "Découvrez le mini-site Situation-Actuelle-IA"
+Adresse lisible sur une ligne ou deux, sans modifier les caractères :
+"elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/"
+
+Pied de page distinct :
+"L’IA propose • Python exécute • L’humain décide"
+"Source : guide Situation-Actuelle-IA V5, pages 2 et 4."
+Ne pas afficher le cas fictif de Samira. Ne pas dire que le message a été publié. Ne pas affirmer une validation complète du portfolio. Ne pas confondre les 284 caractères du message complet incluant le lien avec la carte qui en montre un extrait. Le badge 284 doit donc se trouver dans la zone de résultat, pas être présenté comme un compte du texte de la carte. Veiller à une affiche équilibrée et lisible sur mobile, avec illustration généreuse et textes concis.

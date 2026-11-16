@@ -9,7 +9,7 @@ if(!script||!style)throw new Error('La compilation Vite doit précéder la gén�
 const js=(await readText('dist/'+script[1])).replace(/<\/script/gi,'<\\/script')
 const css=(await readText('dist/'+style[1])).replace(/\/\*# sourceMappingURL=[\s\S]*?\*\//g,'')
 html=html.replace(script[0],'').replace(style[0],()=>'<style>'+css+'</style>')
-const mime={'.zip':'application/zip','.pdf':'application/pdf','.pptx':'application/vnd.openxmlformats-officedocument.presentationml.presentation','.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document','.png':'image/png','.webp':'image/webp','.md':'text/markdown','.json':'application/json','.ipynb':'application/x-ipynb+json','.py':'text/x-python'}
+const mime={'.zip':'application/zip','.pdf':'application/pdf','.pptx':'application/vnd.openxmlformats-officedocument.presentationml.presentation','.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document','.png':'image/png','.webp':'image/webp','.md':'text/markdown','.json':'application/json','.ipynb':'application/x-ipynb+json','.py':'text/x-python','.txt':'text/plain'}
 const assets=new Map()
 async function dataURI(file){
  if(!assets.has(file)){

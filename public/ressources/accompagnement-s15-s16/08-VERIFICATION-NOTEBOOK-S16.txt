@@ -1,0 +1,5 @@
+Notebook : D:\ATELIERS-Challenge-100-AUTOMNE\ATELIERS-MODULE-04\atelier-seance-15-ln-ia\mon-dossier-challenge-module04\05-automatisation\communication-assistee-s16-situation-actuelle-ia.ipynb
+Six cellules exécutées en ordre avec Python 3.14.5.
+JSON, structure nbformat 4.5, identifiants, syntaxe et sorties vérifiés ; bibliothèque nbformat absente.
+Message final : 284 points de code ; identique au texte validé. Original conservé.
+Aperçu visuel Jupyter non vérifié : aucun noyau/visualiseur Jupyter installé. Pour contrôle visuel : ouvrir le fichier dans Jupyter ou VS Code, sélectionner Python 3 puis Exécuter tout.

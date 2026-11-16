@@ -1,0 +1,32 @@
+﻿Use case: style-transfer and compositing.
+Modifier l'affiche fournie (image 2) en intégrant fidèlement le logo officiel LN-IA fourni (image 1). Image 1 = logo officiel à reproduire avec son emblème géométrique, proportions et lettrage LN-IA ; image 2 = affiche à restyler dont TOUT le contenu textuel, tous les chiffres, toutes les étapes et l'URL doivent être préservés. Faire une nouvelle affiche verticale 4:5 haute résolution, mise en page premium institutionnelle, très lisible sur mobile.
+
+IDENTITÉ LN-IA dérivée du logo : bleu marine profond, or métallique élégant et blanc lumineux. Remplacer les accents orange et turquoise de l'affiche initiale par bleu marine et or. Fond blanc / ivoire très subtil ; fins filets géométriques dorés rappelant le logo, cadres à angles nets ou légèrement arrondis ; pictogrammes soignés bleu marine et or. Éviter les ornements excessifs ; aspect sérieux, moderne, pédagogique. Intégrer le logo COMPLET dans une vraie zone de marque en haut, bien visible, sans étirement, pas recouvert par les textes. Recadrer seulement les grandes marges blanches externes de l'image du logo si nécessaire, sans toucher l'emblème ou les lettres. Le logo doit rester fidèle. Ne pas inventer un autre logo. Réorganiser et aérer l'en-tête pour accueillir logo et titre sans collision.
+
+CONSERVER exactement le contenu de l'affiche de référence :
+"LAB-NUMÉRIQUE-IA • CHALLENGE 100 JOURS"
+"De la trace sourcée au message LinkedIn"
+"Accompagnement S15 → S16"
+"Production avancée IA avec méthode, tout en gardant le contrôle humain"
+"S15 • COMPRENDRE ET TESTER"
+"01 SOURCER" ; "Lire le guide V5 et conserver les appuis."
+"02 STRUCTURER" ; "Comparer A et B. Distinguer invariant et variable."
+"03 TESTER" ; "Exécuter la règle de longueur avec Python."
+"400 : longueur acceptable"
+"401 : à raccourcir"
+"Un texte court peut encore être inexact."
+"S16 • PRODUIRE ET CORRIGER"
+"04 ADAPTER" ; "Préciser le public et produire trois variantes."
+"05 FAIRE VALIDER" ; "Relire et adopter la correction LinkedIn."
+"06 CONSERVER LA TRACE" ; "Exporter, relire le fichier et garder les preuves."
+"Message final : 284 caractères"
+"Validation de la preuve : en attente."
+"Comment produire avec méthode ?"
+"Vous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain."
+"Texte validé dans l’échange • Non publié"
+"Découvrez le mini-site Situation-Actuelle-IA"
+"elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/"
+"L’IA propose • Python exécute • L’humain décide"
+"Source : guide Situation-Actuelle-IA V5, pages 2 et 4."
+
+Conserver le parcours en six étapes, les flèches entre les étapes, les deux sections S15 et S16, l'encart de message, le CTA et le pied de page. Aucune mention de publication accomplie, aucun QR code, aucun cas fictif. Ne pas changer les faits ni les caractères de l'URL. Taille de texte généreuse et hiérarchie nette ; préserver la lisibilité du texte en bas.

@@ -1,0 +1,80 @@
+{
+  "date_seance": "2026-11-16",
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "plateforme": "Windows-10-10.0.19045-SP0",
+  "seuil": 400,
+  "resultats": [
+    {
+      "cas": "Vide",
+      "texte": "",
+      "longueur_python": 0,
+      "prediction": "NON RECUEILLIE — exécution directe demandée",
+      "observation": "À compléter",
+      "outil": "Python 3 / fonctions du script S15 fourni"
+    },
+    {
+      "cas": "Espaces seuls",
+      "texte": "   ",
+      "longueur_python": 3,
+      "prediction": "NON RECUEILLIE — exécution directe demandée",
+      "observation": "À compléter",
+      "outil": "Python 3 / fonctions du script S15 fourni"
+    },
+    {
+      "cas": "400 lettres a",
+      "texte": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "longueur_python": 400,
+      "prediction": "NON RECUEILLIE — exécution directe demandée",
+      "observation": "Longueur acceptable",
+      "outil": "Python 3 / fonctions du script S15 fourni"
+    },
+    {
+      "cas": "401 lettres a",
+      "texte": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "longueur_python": 401,
+      "prediction": "NON RECUEILLIE — exécution directe demandée",
+      "observation": "À raccourcir",
+      "outil": "Python 3 / fonctions du script S15 fourni"
+    },
+    {
+      "cas": "Étalon original 400",
+      "texte": "0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789",
+      "longueur_python": 400,
+      "prediction": "NON RECUEILLIE — exécution directe demandée",
+      "observation": "Longueur acceptable",
+      "outil": "Python 3 / fonctions du script S15 fourni"
+    },
+    {
+      "cas": "Étalon original 401",
+      "texte": "0123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789X",
+      "longueur_python": 401,
+      "prediction": "NON RECUEILLIE — exécution directe demandée",
+      "observation": "À raccourcir",
+      "outil": "Python 3 / fonctions du script S15 fourni"
+    },
+    {
+      "cas": "Variante A acceptée",
+      "texte": "Comment produire avec l’IA tout en gardant le pilotage humain ? Le guide Situation-Actuelle-IA propose une démarche : comprendre, produire, contrôler et transmettre. Découvrez la démarche sur le mini-site :\nhttps://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+      "longueur_python": 274,
+      "prediction": "NON RECUEILLIE — exécution directe demandée",
+      "observation": "Longueur acceptable",
+      "outil": "Python 3 / fonctions du script S15 fourni"
+    },
+    {
+      "cas": "Variante B acceptée",
+      "texte": "Produire vite avec l’IA demande aussi de vérifier. Le guide Situation-Actuelle-IA rappelle que la vitesse ne prouve pas la qualité. Découvrez une démarche de production avec méthode et contrôle humain :\nhttps://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+      "longueur_python": 270,
+      "prediction": "NON RECUEILLIE — exécution directe demandée",
+      "observation": "Longueur acceptable",
+      "outil": "Python 3 / fonctions du script S15 fourni"
+    },
+    {
+      "cas": "Message retenu",
+      "texte": "Comment produire avec méthode ? — Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+      "longueur_python": 208,
+      "prediction": "NON RECUEILLIE — exécution directe demandée",
+      "observation": "Longueur acceptable",
+      "outil": "Python 3 / fonctions du script S15 fourni"
+    }
+  ]
+}

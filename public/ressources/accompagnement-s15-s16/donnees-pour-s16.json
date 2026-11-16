@@ -1,0 +1,63 @@
+{
+  "schema": "ln-ia-preparation-s16/v1",
+  "seance": "S15 · travail du 16 novembre 2026",
+  "statut": "BROUILLON — À RELIRE",
+  "champs": [
+    {
+      "champ": "projet",
+      "valeur": "Situation-Actuelle-IA",
+      "source_ou_justification": "Projet demandé par le participant ; titre du guide V5, page 2. Titre court du projet pour le gabarit S16."
+    },
+    {
+      "champ": "public",
+      "valeur": "Professionnels et formateurs",
+      "source_ou_justification": "Professionnels et formateurs : public proposé puis explicitement confirmé par le participant le 16 novembre 2026 ; guide V5, page 28."
+    },
+    {
+      "champ": "besoin",
+      "valeur": "Production avancée IA avec méthode, tout en gardant le contrôle humain",
+      "source_ou_justification": "Formulation explicitement donnée par le participant le 16 novembre 2026 : production avancée IA avec méthode, tout en gardant le contrôle humain. Guide V5, page 2 (méthode), pages 9 et 10 (production avancée et pilotage humain)."
+    },
+    {
+      "champ": "proposition",
+      "valeur": "Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle.",
+      "source_ou_justification": "Proposition du gabarit acceptée à étape 2 ; guide V5, pages 2 et 4."
+    },
+    {
+      "champ": "action",
+      "valeur": "Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+      "source_ou_justification": "Action du message accepté ; URL fournie par le participant."
+    },
+    {
+      "champ": "format",
+      "valeur": "professionnel",
+      "source_ou_justification": "Choix technique provisoire de variante par assistant pour amorcer S16 ; canal LinkedIn confirmé par la demande initiale. Ce format reste modifiable."
+    }
+  ],
+  "regle_decrite_par_le_candidat": null,
+  "regle_etalon": {
+    "precondition": "texte renseigné",
+    "test": "longueur > 400",
+    "si_vrai": "À raccourcir",
+    "sinon": "Longueur acceptable"
+  },
+  "moteur_observe": "Python 3.14.5 — tests réellement exécutés",
+  "essais": [
+    {
+      "longueur": 400,
+      "prediction": null,
+      "observation": "Longueur acceptable"
+    },
+    {
+      "longueur": 401,
+      "prediction": null,
+      "observation": "À raccourcir"
+    }
+  ],
+  "limite": "La longueur ne vérifie ni les faits ni la qualité du message.",
+  "decision_du_pilote": null,
+  "regle": "Règle du support appliquée : vide ou espaces seuls → À compléter ; sinon longueur > 400 → À raccourcir ; sinon Longueur acceptable.",
+  "canal": "LinkedIn",
+  "titre_message": "Comment produire avec méthode ?",
+  "provenance_export": "Fonction officielle buildHandoff de src/portfolio.js exécutée en Node.js ; métadonnées adaptées explicitement à exécution Python réelle et à date du travail. Aucun clic navigateur prétendu."
+}

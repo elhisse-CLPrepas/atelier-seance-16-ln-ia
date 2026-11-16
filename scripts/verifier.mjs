@@ -6,11 +6,11 @@ import {affiches} from './affiches.mjs'
 import {documentsPrompts} from './documents-prompts.mjs'
 import {keys,formats,lireFiche,comparer,relire,controle,bilan,relais,traceWeb} from '../src/activites.js'
 const root=new URL('../',import.meta.url),bytes=p=>fs.readFile(new URL(p,root)),read=async p=>(await bytes(p)).toString('utf8')
-const d=JSON.parse(await read('src/seance.json')),c=d.cas,source=JSON.parse(await read('public/ressources/demo/donnees-s15-exemple.json'))
+const d=JSON.parse(await read('src/seance.json')),c=d.cas,source=JSON.parse(await read('public/ressources/accompagnement-s15-s16/donnees-pour-s16.json'))
 const f={...lireFiche(source),humaine:c.humaine,champ:c.champ,nouvelle:c.nouvelle,origine:c.origine,prediction:c.prediction,choix:c.choix,canal:c.canal,avant:c.avant,apres:c.apres,motif:c.motif,appui:c.appui}
 const r=comparer(f),h=relire(r,f)
-assert.deepEqual(r.avant,c.essai.avant);assert.deepEqual(r.apres,c.essai.versions);assert.deepEqual(r.modifies,['professionnel']);assert.equal(h.texte,c.revision.texte);assert.equal(h.mesure.n,177)
-assert.deepEqual(formats.map(k=>controle(r.avant[k],f.action).n),[114,166,174]);assert.deepEqual(formats.map(k=>controle(r.apres[k],f.action).n),[114,166,184])
+assert.deepEqual(r.avant,c.essai.avant);assert.deepEqual(r.apres,c.essai.versions);assert.deepEqual(r.modifies,['professionnel']);assert.equal(h.texte,c.revision.texte);assert.equal(h.mesure.n,284)
+assert.deepEqual(formats.map(k=>controle(r.avant[k],f.action).n),[174,271,242]);assert.deepEqual(formats.map(k=>controle(r.apres[k],f.action).n),[174,271,276])
 assert.equal(controle('7'.repeat(400),'7').signal,'Longueur acceptable');assert.equal(controle('7'.repeat(401),'7').signal,'À raccourcir');assert.equal(controle('x','').signal,'À compléter');assert.equal(controle('🙂é','é').n,2)
 const blank=structuredClone(source);blank.champs[4].valeur=null;assert.throws(()=>lireFiche(blank),/action/);assert.throws(()=>lireFiche({schema:'autre'}));assert.throws(()=>comparer({...f,prediction:''}));assert.throws(()=>relire(r,{...f,apres:f.avant}));assert.throws(()=>relire(r,{...f,apres:'À compléter'}));assert.throws(()=>relire(r,{...f,avant:'Passage absent'}))
 assert(bilan({obsS16:'Lu au poste',passageDisque:'Texte témoin'},[]).includes('Texte témoin'));assert(bilan({},[]).includes('Décision pédagogique de clôture : en attente.'));assert(relais({mTitre:'Préparer une semaine'}).includes('Préparer une semaine'));assert(traceWeb(f,r,h).includes('Répétition Web'))

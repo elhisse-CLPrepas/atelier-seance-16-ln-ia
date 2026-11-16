@@ -1,0 +1,33 @@
+S16 : exécution Python des trois premières cellules de code ; aucun noyau Jupyter utilisé.
+Adaptations en mémoire : mode fichier, racine locale, message de référence accepté et libellé de provenance. Notebook original préservé.
+
+CELLULE DE CODE 1
+Dossier de travail : D:\ATELIERS-Challenge-100-AUTOMNE\ATELIERS-MODULE-04\atelier-seance-15-ln-ia\mon-dossier-challenge-module04
+projet : Situation-Actuelle-IA | Appui : Projet demandé par le participant ; titre du guide V5, page 2. Titre court du projet pour le gabarit S16.
+public : Professionnels et formateurs | Appui : Professionnels et formateurs : public proposé puis explicitement confirmé par le participant le 16 novembre 2026 ; guide V5, page 28.
+besoin : Production avancée IA avec méthode, tout en gardant le contrôle humain | Appui : Formulation explicitement donnée par le participant le 16 novembre 2026 : production avancée IA avec méthode, tout en gardant le contrôle humain. Guide V5, page 2 (méthode), pages 9 et 10 (production avancée et pilotage humain).
+proposition : Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. | Appui : Proposition du gabarit acceptée à étape 2 ; guide V5, pages 2 et 4.
+action : Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/ | Appui : Action du message accepté ; URL fournie par le participant.
+format : professionnel | Appui : Choix technique provisoire de variante par assistant pour amorcer S16 ; canal LinkedIn confirmé par la demande initiale. Ce format reste modifiable.
+Règle rapportée de S15 : Règle du support appliquée : vide ou espaces seuls → À compléter ; sinon longueur > 400 → À raccourcir ; sinon Longueur acceptable.
+
+CELLULE DE CODE 2
+MESSAGE DE RÉFÉRENCE ACCEPTÉ (PROPOSITION IA VALIDÉE, PAS DE VERSION HUMAINE S14 ANTÉRIEURE)
+Comment produire avec méthode ? — Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+
+GABARIT S16 · BROUILLON — À RELIRE
+Situation-Actuelle-IA — Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+
+CELLULE DE CODE 3
+
+COURT · BROUILLON — À RELIRE
+Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+
+ACCESSIBLE · BROUILLON — À RELIRE
+Bonjour ! Votre besoin : Production avancée IA avec méthode, tout en gardant le contrôle humain.
+Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/
+
+PROFESSIONNEL · BROUILLON — À RELIRE
+Objet : Situation-Actuelle-IA
+Public : Professionnels et formateurs
+Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/

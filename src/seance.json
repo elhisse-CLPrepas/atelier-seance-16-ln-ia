@@ -468,7 +468,7 @@
       "La comparer ensuite aux sorties réelles, même si elle était fausse."
     ],
     [
-      "Que vaut un compteur de 177 caractères ?",
+      "Que vaut un compteur de 284 caractères ?",
       "Pour ce texte, le seuil de 400 est respecté. Il reste à examiner le sens et l’action."
     ],
     [
@@ -608,89 +608,91 @@
   ],
   "cas": {
     "ouverture": "Si je ferme Jupyter, où puis-je retrouver la phrase que vous avez corrigée et la raison de votre choix ?",
-    "humaine": "J’ai gardé les deux versions du guide. Le journal dit ce que j’ai changé et pourquoi. Souhaitez-vous voir un extrait du journal de corrections ?",
+    "humaine": "Comment produire avec méthode ? — Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
     "donnees": {
-      "projet": "Révision du guide S12",
-      "public": "Formateurs débutants",
-      "besoin": "comprendre une correction",
-      "proposition": "Le journal documente les modifications et leurs motifs.",
-      "action": "Souhaitez-vous voir un extrait du journal de corrections ?",
+      "projet": "Situation-Actuelle-IA",
+      "public": "Professionnels et formateurs",
+      "besoin": "Production avancée IA avec méthode, tout en gardant le contrôle humain",
+      "proposition": "Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle.",
+      "action": "Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
       "format": "professionnel"
     },
     "appuis": {
-      "projet": "Guide S12, titre et étape 5. Titre court choisi pour le courriel.",
-      "public": "Cas fictif S13/S14, public retenu par le formateur.",
-      "besoin": "Objectif de la trace fictive S13 et journal V1/V2.",
-      "proposition": "Journal des corrections V1/V2, lignes de fond et de forme.",
-      "action": "Trace S14, version humaine et variante professionnelle.",
-      "format": "Courriel retenu dans le cas fictif S14."
+      "projet": "Projet demandé par le participant ; titre du guide V5, page 2. Titre court du projet pour le gabarit S16.",
+      "public": "Professionnels et formateurs : public proposé puis explicitement confirmé par le participant le 16 novembre 2026 ; guide V5, page 28.",
+      "besoin": "Formulation explicitement donnée par le participant le 16 novembre 2026 : production avancée IA avec méthode, tout en gardant le contrôle humain. Guide V5, page 2 (méthode), pages 9 et 10 (production avancée et pilotage humain).",
+      "proposition": "Proposition du gabarit acceptée à étape 2 ; guide V5, pages 2 et 4.",
+      "action": "Action du message accepté ; URL fournie par le participant.",
+      "format": "Choix technique provisoire de variante par assistant pour amorcer S16 ; canal LinkedIn confirmé par la demande initiale. Ce format reste modifiable."
     },
     "regle": "Si un texte renseigné dépasse 400 caractères, le signaler.",
     "essai": {
       "initial": {
-        "projet": "Révision du guide S12",
-        "public": "Formateurs débutants",
-        "besoin": "comprendre une correction",
-        "proposition": "Le journal documente les modifications et leurs motifs.",
-        "action": "Souhaitez-vous voir un extrait du journal de corrections ?",
+        "projet": "Situation-Actuelle-IA",
+        "public": "Professionnels et formateurs",
+        "besoin": "Production avancée IA avec méthode, tout en gardant le contrôle humain",
+        "proposition": "Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle.",
+        "action": "Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
         "format": "professionnel"
       },
       "donnees": {
-        "projet": "Révision du guide S12",
-        "public": "Formateurs débutants en binôme",
-        "besoin": "comprendre une correction",
-        "proposition": "Le journal documente les modifications et leurs motifs.",
-        "action": "Souhaitez-vous voir un extrait du journal de corrections ?",
+        "projet": "Situation-Actuelle-IA",
+        "public": "Professionnels et formateurs débutant en production avancée IA",
+        "besoin": "Production avancée IA avec méthode, tout en gardant le contrôle humain",
+        "proposition": "Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle.",
+        "action": "Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
         "format": "professionnel"
       },
       "champ": "public",
-      "origine": "Choix pédagogique du formateur pour la relecture en binôme du 16 novembre.",
-      "prediction": "Seul le format professionnel nomme le public. Les deux autres textes devraient rester identiques.",
+      "origine": "Public proposé par assistant puis explicitement accepté par le participant : je valide le public. Échange S16 du 16 novembre 2026.",
+      "prediction": "Prédiction de l’assistant, non du participant : seul le format professionnel changera, car seul ce gabarit affiche le champ public.",
       "avant": {
-        "court": "Le journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
-        "accessible": "Bonjour ! Votre besoin : comprendre une correction.\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
-        "professionnel": "Objet : Révision du guide S12\nPublic : Formateurs débutants\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?"
+        "court": "Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+        "accessible": "Bonjour ! Votre besoin : Production avancée IA avec méthode, tout en gardant le contrôle humain.\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+        "professionnel": "Objet : Situation-Actuelle-IA\nPublic : Professionnels et formateurs\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/"
       },
       "versions": {
-        "court": "Le journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
-        "accessible": "Bonjour ! Votre besoin : comprendre une correction.\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
-        "professionnel": "Objet : Révision du guide S12\nPublic : Formateurs débutants en binôme\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?"
+        "court": "Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+        "accessible": "Bonjour ! Votre besoin : Production avancée IA avec méthode, tout en gardant le contrôle humain.\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+        "professionnel": "Objet : Situation-Actuelle-IA\nPublic : Professionnels et formateurs débutant en production avancée IA\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/"
       },
       "modifies": [
         "professionnel"
       ],
       "controles": {
         "court": {
-          "longueur": 114,
+          "longueur": 174,
           "presence": true,
           "signal": "Longueur acceptable",
           "action_exacte": 1
         },
         "accessible": {
-          "longueur": 166,
+          "longueur": 271,
           "presence": true,
           "signal": "Longueur acceptable",
           "action_exacte": 1
         },
         "professionnel": {
-          "longueur": 184,
+          "longueur": 276,
           "presence": true,
           "signal": "Longueur acceptable",
           "action_exacte": 1
         }
-      }
+      },
+      "prediction_participant": null,
+      "provenance_prediction": "assistant"
     },
     "revision": {
       "choix": "professionnel",
-      "brut": "Objet : Révision du guide S12\nPublic : Formateurs débutants en binôme\nLe journal documente les modifications et leurs motifs. Souhaitez-vous voir un extrait du journal de corrections ?",
-      "avant": "Le journal documente les modifications et leurs motifs.",
-      "apres": "Le journal explique ce qui a changé et pourquoi.",
-      "texte": "Objet : Révision du guide S12\nPublic : Formateurs débutants en binôme\nLe journal explique ce qui a changé et pourquoi. Souhaitez-vous voir un extrait du journal de corrections ?",
-      "motif": "Pour des formateurs débutants, « ce qui a changé et pourquoi » rend le rôle du journal plus facile à comprendre.",
-      "appui": "Journal S12 V1/V2, correction « Forme — accessibilité » et colonne « Raison et contrôle à réaliser ».",
-      "canal": "Courriel au groupe de formation.",
+      "brut": "Objet : Situation-Actuelle-IA\nPublic : Professionnels et formateurs débutant en production avancée IA\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+      "avant": "Objet : Situation-Actuelle-IA\nPublic : Professionnels et formateurs débutant en production avancée IA\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+      "apres": "Comment produire avec méthode ?\n\nVous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain.\n\nConsultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+      "texte": "Comment produire avec méthode ?\n\nVous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain.\n\nConsultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+      "motif": "Adaptation LinkedIn proposée par l’assistant puis explicitement validée par le participant : oui je valide. Remplacer les étiquettes Objet et Public par le titre retenu et une adresse directe au lecteur ; rappeler le pilotage humain.",
+      "appui": "Guide Situation-Actuelle-IA V5, page 2 : sous-titre mentionnant pilotage humain et production avec méthode ; page 4 : produire et contrôler. Public précisé et adaptation finale acceptés dans le chat.",
+      "canal": "LinkedIn",
       "controle": {
-        "longueur": 177,
+        "longueur": 284,
         "presence": true,
         "signal": "Longueur acceptable",
         "action_exacte": 1
@@ -698,15 +700,15 @@
     },
     "sha256": "102531ef59ba1d638e4956a9852e25c61ec31685266772822427a28e6fb4e722",
     "champ": "public",
-    "nouvelle": "Formateurs débutants en binôme",
-    "origine": "Choix pédagogique du formateur pour la relecture en binôme du 16 novembre.",
-    "prediction": "Seul le format professionnel nomme le public. Les deux autres textes devraient rester identiques.",
+    "nouvelle": "Professionnels et formateurs débutant en production avancée IA",
+    "origine": "Public proposé par assistant puis explicitement accepté par le participant : je valide le public. Échange S16 du 16 novembre 2026.",
+    "prediction": "Prédiction de l’assistant, non du participant : seul le format professionnel changera, car seul ce gabarit affiche le champ public.",
     "choix": "professionnel",
-    "avant": "Le journal documente les modifications et leurs motifs.",
-    "apres": "Le journal explique ce qui a changé et pourquoi.",
-    "motif": "Pour des formateurs débutants, « ce qui a changé et pourquoi » rend le rôle du journal plus facile à comprendre.",
-    "appui": "Journal S12 V1/V2, correction « Forme — accessibilité » et colonne « Raison et contrôle à réaliser ».",
-    "canal": "Courriel au groupe de formation."
+    "avant": "Objet : Situation-Actuelle-IA\nPublic : Professionnels et formateurs débutant en production avancée IA\nLe guide Situation-Actuelle-IA propose une démarche de production et de contrôle. Consultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+    "apres": "Comment produire avec méthode ?\n\nVous débutez en production avancée IA ? Le guide Situation-Actuelle-IA propose une démarche de production et de contrôle, tout en gardant le pilotage humain.\n\nConsultez le mini-site : https://elhisse-clprepas.github.io/mini-site-situation-actuelle-ia/",
+    "motif": "Adaptation LinkedIn proposée par l’assistant puis explicitement validée par le participant : oui je valide. Remplacer les étiquettes Objet et Public par le titre retenu et une adresse directe au lecteur ; rappeler le pilotage humain.",
+    "appui": "Guide Situation-Actuelle-IA V5, page 2 : sous-titre mentionnant pilotage humain et production avec méthode ; page 4 : produire et contrôler. Public précisé et adaptation finale acceptés dans le chat.",
+    "canal": "LinkedIn"
   },
   "groups": [
     [
@@ -886,6 +888,71 @@
           "atelier/prolongement-guide-ete.md",
           "Prolongement de 30 min · visuel ou LinkedIn local",
           "MD"
+        ]
+      ]
+    ],
+    [
+      "Exemple pédagogique Situation-Actuelle-IA · accompagnement S15–S16",
+      [
+        [
+          "accompagnement-s15-s16/README.md",
+          "Parcours et statuts des traces originales",
+          "MD"
+        ],
+        [
+          "accompagnement-s15-s16/03-CONDUCTEUR-PRESENTATION-S16.md",
+          "Conducteur de présentation du parcours",
+          "MD"
+        ],
+        [
+          "accompagnement-s15-s16/communication-assistee-s16-situation-actuelle-ia.ipynb",
+          "Notebook personnalisé avec sorties Python",
+          "IPYNB"
+        ],
+        [
+          "accompagnement-s15-s16/donnees-pour-s16.json",
+          "Six champs et appuis issus de S15",
+          "JSON"
+        ],
+        [
+          "accompagnement-s15-s16/06-COMPARAISON-PUBLIC-S16.md",
+          "Comparaison du public avant et après",
+          "MD"
+        ],
+        [
+          "accompagnement-s15-s16/07-EXPORT-FINAL-S16.json",
+          "Correction, contrôle et statuts de validation",
+          "JSON"
+        ],
+        [
+          "accompagnement-s15-s16/variantes-communication-projet.md",
+          "Trace finale exportée et relue techniquement",
+          "MD"
+        ],
+        [
+          "accompagnement-s15-s16/message-linkedin-valide.txt",
+          "Message LinkedIn · brouillon de démonstration",
+          "TXT"
+        ],
+        [
+          "accompagnement-s15-s16/affiche-trace-message-linkedin-S15-S16-LN-IA-v2.png",
+          "Affiche du parcours S15–S16",
+          "PNG"
+        ],
+        [
+          "accompagnement-s15-s16/rejouer-exemple-s16.ipynb",
+          "Rejouer en dossier de démonstration séparé",
+          "IPYNB"
+        ],
+        [
+          "accompagnement-s15-s16/LIRE-AVANT-DE-REJOUER.md",
+          "Consignes et provenance du cas pédagogique",
+          "MD"
+        ],
+        [
+          "accompagnement-s15-s16/07-EXPORT-FINAL-S16.txt",
+          "Journal de relecture technique du Markdown",
+          "TXT"
         ]
       ]
     ]
